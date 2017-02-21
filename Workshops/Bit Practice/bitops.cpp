@@ -15,17 +15,17 @@ void bitprint(T t, int bits) {
 }
 
 int main() {
-  const int BITS = 3;
-  for (int i = 0; i < (1 << BITS); i++) {
+  const int BITS = 2;
+  /*for (int i = 0; i < (1 << BITS); i++) {
     bitprint(i, 3);
     cout << "\n";
-  }
+  }*/
 
   cout << "& - AND - ON if both bit ON\n";
   for (int i = 0; i < (1 << BITS); i++) {
-    bitprint(i, BITS);
-    cout << " : ";
-    for (int j = 0; j < BITS; j++) {
+    //bitprint(i, BITS);
+    //cout << " : ";
+    for (int j = 0; j < (1 << BITS); j++) { 
       bitprint(i&j, BITS);
       cout << " ";
     }
@@ -34,9 +34,9 @@ int main() {
 
   cout << "| - OR - ON if either bit ON\n";
   for (int i = 0; i < (1 << BITS); i++) {
-    bitprint(i, BITS);
-    cout << " : ";
-    for (int j = 0; j < BITS; j++) {
+    //bitprint(i, BITS);
+    //cout << " : ";
+    for (int j = 0; j < (1 << BITS); j++) {
       bitprint(i|j, BITS);
       cout << " ";
     }
@@ -45,9 +45,9 @@ int main() {
 
   cout << "^ - XOR - ON bits are different\n";
   for (int i = 0; i < (1 << BITS); i++) {
-    bitprint(i, BITS);
-    cout << " : ";
-    for (int j = 0; j < BITS; j++) {
+    //bitprint(i, BITS);
+    //cout << " : ";
+    for (int j = 0; j < (1 << BITS); j++) {
       bitprint(i ^ j, BITS);
       cout << " ";
     }

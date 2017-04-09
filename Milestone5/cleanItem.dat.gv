@@ -1,0 +1,10 @@
+digraph itemGraph{
+"Item CPU" -> "Installer CPU" [color=green];
+"Item CPU" -> "Remover RemoveCPU" [color=red];
+"Item Memory" -> "Installer Memory" [color=green];
+"Item Memory" -> "Remover RemoveMemory" [color=red];
+"Item GPU" -> "Installer GPU" [color=green];
+"Item GPU" -> "Remover RemoveGPU" [color=red];
+"Item PowerSupply" -> "Installer PowerSupply" [color=green];
+"Item PowerSupply" -> "Remover RemovePowerSupply" [color=red];
+}

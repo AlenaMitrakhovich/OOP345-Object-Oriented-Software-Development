@@ -1,0 +1,4 @@
+CPU|CPU|RemoveCPU|300|CentralProcessingUnit
+Memory|Memory|RemoveMemory|400|SamsungMemoryStick
+GPU|GPU|RemoveGPU|500|NvidiaGeforce750M
+PowerSupply|PowerSupply|RemovePowerSupply|100

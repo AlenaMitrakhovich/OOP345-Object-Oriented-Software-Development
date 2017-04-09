@@ -1,0 +1,13 @@
+PowerSupply|4|Motherboard
+Motherboard|3|CPU|Remove CPU
+RemoveCPU|1|CPU 
+CPU|5|Memory|RemoveCPU
+RemoveCPU|1|CPU
+Memory|4|SSD|RemoveMemory
+RemoveMemory|1|Memory
+SSD|4|GPU|Remove SSD
+RemoveSSD|1|SSD
+GPU|3|Test
+Test|4|Approve|Repair
+Repair
+Approve

@@ -1,0 +1,15 @@
+digraph orderGraph{
+"FardadSoleimanloo:DellPrecision3600" -> "CPU" [color=blue];
+"FardadSoleimanloo:DellPrecision3600" -> "Memory" [color=blue];
+"FardadSoleimanloo:DellPrecision3600" -> "Memory" [color=blue];
+"JosephHughes:HPZ230" -> "CPU" [color=blue];
+"JosephHughes:HPZ230" -> "Memory" [color=blue];
+"ChrisSzalwinski:HPZ350" -> "CPU" [color=blue];
+"ChrisSzalwinski:HPZ350" -> "Memory" [color=blue];
+"ChrisSzalwinski:HPZ350" -> "SSD" [color=blue];
+"ChrisSzalwinski:HPZ350" -> "GPU" [color=blue];
+"ElliottColeshill:HPApollo1000" -> "CPU" [color=blue];
+"ElliottColeshill:HPApollo1000" -> "MEMORY" [color=blue];
+"ElliottColeshill:HPApollo1000" -> "PowerSupply" [color=blue];
+"ElliottColeshill:HPApollo1000" -> "GPU" [color=blue];
+}
